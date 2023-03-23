@@ -1,7 +1,7 @@
 import { DataTypes } from 'sequelize';
 import { sequelize } from "../db/db.connection.js";
 
-export const Episode = sequelize.define('episode',{
+export const Episode = sequelize.define('episode', {
     id: {
         type: DataTypes.INTEGER,
         primaryKey: true,
@@ -11,7 +11,9 @@ export const Episode = sequelize.define('episode',{
     title: {
         type: DataTypes.STRING
     },
-   
-},   {
-  timestamps: false
+    episodeNumber: {
+        type: DataTypes.INTEGER
+    }
+}, {
+    timestamps: false
 });

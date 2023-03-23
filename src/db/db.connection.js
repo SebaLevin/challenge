@@ -1,6 +1,7 @@
 import Sequelize from "sequelize";
 import { DATABASE_NAME, DATABASE_USERNAME, DATABASE_PASSWORD, DATABASE_HOST, DATABASE_DIALECT } from '../constants/index.js';
 
+//craetes DB connection
 export const sequelize = new Sequelize(
     DATABASE_NAME,
     DATABASE_USERNAME,

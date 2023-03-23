@@ -2,7 +2,7 @@ import { DataTypes } from 'sequelize';
 import { sequelize } from "../db/db.connection.js";
 
 
-export const Movie = sequelize.define('movie',{
+export const Movie = sequelize.define('movie', {
     id: {
         type: DataTypes.INTEGER,
         primaryKey: true,
@@ -21,8 +21,8 @@ export const Movie = sequelize.define('movie',{
     year: {
         type: DataTypes.DATE
     },
-  
-},   {
+
+}, {
     timestamps: false
 });
 

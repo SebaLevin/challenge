@@ -1,7 +1,7 @@
 import { DataTypes } from 'sequelize';
 import { sequelize } from "../db/db.connection.js";
 
-export const Director = sequelize.define('director',{
+export const Director = sequelize.define('director', {
     id: {
         type: DataTypes.INTEGER,
         primaryKey: true,
@@ -17,8 +17,8 @@ export const Director = sequelize.define('director',{
     nationality: {
         type: DataTypes.STRING
     },
-      
+
 }, {
-  timestamps: false
+    timestamps: false
 });
 
