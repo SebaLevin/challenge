@@ -1,0 +1,47 @@
+[
+  {
+    "id": "37bddcea-12fc-4960-a9e9-c3e586819376",
+    "type": "PYME",
+    "cuit": "30715982931",
+    "businessName": "ACME PyME S.A.",
+    "adhesionDate": "2026-04-23T15:32:31.225Z",
+    "annualRevenue": 50000000,
+    "employeeCount": 25
+  },
+  {
+    "id": "a736daf7-de66-4526-aadb-a0b2fe3843bf",
+    "type": "PYME",
+    "cuit": "30708876549",
+    "businessName": "Pequeños Gigantes SRL",
+    "adhesionDate": "2026-04-08T15:32:31.225Z",
+    "annualRevenue": 12000000,
+    "employeeCount": 8
+  },
+  {
+    "id": "56663824-010d-42f4-b903-5eb71124ec70",
+    "type": "CORPORATE",
+    "cuit": "30500010912",
+    "businessName": "Megacorp International",
+    "adhesionDate": "2026-04-18T15:32:31.225Z",
+    "fiscalId": "AR-30500010912",
+    "legalRepresentative": "María González"
+  },
+  {
+    "id": "ace56af1-7c93-452d-8e91-35f375ebcd52",
+    "type": "CORPORATE",
+    "cuit": "30616733911",
+    "businessName": "Old Holdings Ltd",
+    "adhesionDate": "2025-12-29T15:32:31.225Z",
+    "fiscalId": "AR-30616733911",
+    "legalRepresentative": "Juan Pérez"
+  },
+  {
+    "id": "1802b637-5156-4a28-9632-6678b2648da6",
+    "type": "PYME",
+    "cuit": "30712345671",
+    "businessName": "Test PyME",
+    "adhesionDate": "2026-04-28T15:33:57.120Z",
+    "annualRevenue": 5000000,
+    "employeeCount": 10
+  }
+]
